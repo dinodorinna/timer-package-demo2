@@ -20,7 +20,7 @@ jobs:
           node-version: 20
           registry-url: https://registry.npmjs.org
           always-auth: true
-          scope: "dinodorinna"
+          scope: "@dinodorinna"
       - run: yarn install --frozen-lockfile
       - run: yarn build
       - run: yarn publish
